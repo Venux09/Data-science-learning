@@ -54,3 +54,7 @@ Goal: AI/ML Engineer  working experience in india and becoming n2(jlpt (japanese
 
 - GitHub: [venux09](https://github.com/venux09)
 - Learning in public — updates pushed regularly
+## status
+- i am starting to deal with data with python like cleaning the data and presenting the data ,,
+- soon i will start learning pandas and numpy
+- my goal is simple using ai to enhace learning and practise ,revision , projects that's it ..
