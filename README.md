@@ -58,3 +58,6 @@ Goal: AI/ML Engineer  working experience in india and becoming n2(jlpt (japanese
 - i am starting to deal with data with python like cleaning the data and presenting the data ,,
 - soon i will start learning pandas and numpy
 - my goal is simple using ai to enhace learning and practise ,revision , projects that's it ..
+## current 
+i am thinking of making a small project of cleaning and representing the data with use of python only that's what i am learning right now using list comprehension and function definately i am gonna make it.. 
+
