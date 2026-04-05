@@ -61,3 +61,40 @@ Goal: AI/ML Engineer  working experience in india and becoming n2(jlpt (japanese
 ## current 
 i am thinking of making a small project of cleaning and representing the data with use of python only that's what i am learning right now using list comprehension and function definately i am gonna make it.. 
 
+# 🚀 Update: NumPy Completed
+
+I have successfully completed the NumPy section of my Data Science journey. This milestone helped me understand how to efficiently work with numerical data using arrays and perform fast computations.
+
+## 📚 What I Learned
+
+* Array creation and manipulation
+* Indexing and slicing
+* Mathematical operations
+* Statistical functions (mean, variance, standard deviation)
+* Functions like `percentile()`, `diff()`, and `exp()`
+* Reshaping and working with multi-dimensional arrays
+
+## 🛠️ Project I’m Building
+
+I am currently working on a **Student Performance Analysis System using NumPy**.
+
+### 🔹 Project Overview:
+
+This project analyzes the marks of students to understand their performance and trends.
+
+### 🔹 Features:
+
+* Calculate average marks (student-wise and subject-wise)
+* Identify toppers and weak students
+* Analyze score distribution using variance and standard deviation
+* Use percentile to understand performance levels
+* Track performance changes using `diff()`
+* Simulate growth using `exp()`
+
+## 🎯 Goal
+
+The goal of this project is to apply all major NumPy concepts in a practical way and build a strong foundation for further learning in Data Science.
+
+---
+
+✅ Next Step: Moving towards **Pandas and Data Visualization**
