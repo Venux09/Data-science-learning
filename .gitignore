@@ -10,3 +10,6 @@ trash2/
 .virtual_documents/matplotlib data visualization/stack_.ipynb
 .virtual_documents/data science pratise/Untitled.ipynb
 .virtual_documents/data science pratise/Untitled.ipynb
+*.ipynb
+*.ipynb
+.virtual_documents/Datascience_practise/matplotlib practise/session_9.ipynb
