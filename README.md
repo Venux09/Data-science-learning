@@ -290,3 +290,93 @@ This week helped me realize:
 * Deep learning is better than shallow understanding
 
 
+# 📊 Data Science Learning Update
+
+## 🚀 Progress Overview
+
+This repository tracks my journey of building a strong foundation in **Data Science and AI/ML**. Over the past phase, I have focused on understanding core concepts and applying them through structured practice and mini-projects.
+
+---
+
+## ✅ Completed Topics
+
+### 🔹 NumPy
+
+* Arrays & operations
+* Indexing & slicing
+* Reshaping
+* Mathematical functions
+* Statistics (mean, median, std, variance)
+
+### 🔹 Pandas
+
+* Series & DataFrame
+* Data cleaning (handling NaN, duplicates)
+* Filtering & querying
+* GroupBy & aggregation
+* Merging & joining
+
+### 🔹 Matplotlib (Ongoing)
+
+* Line plots
+* Bar graphs
+* Pie charts (currently practicing)
+
+---
+
+## 🧠 How I’m Learning
+
+I follow a structured approach:
+
+**Learn → Practice → Build → Revise**
+
+* Solving multiple problems per concept
+* Writing code myself to understand errors & logic
+* Practicing daily (focused sessions)
+* Weekly deep practice sessions
+* Building mini-projects after each major topic
+
+---
+
+## 💻 Practice System
+
+* Daily: ~50 mins concept practice
+* Projects: ~30 mins implementation
+* Revision: Regular review of past topics
+* Sunday: 2–3 hours deep practice
+
+---
+
+## 🛠️ Current Focus
+
+* Strengthening **data visualization skills**
+* Practicing real-world plotting problems
+* Preparing for mini-project using:
+
+  * NumPy
+  * Pandas
+  * Matplotlib
+
+---
+
+## 🎯 Next Steps
+
+* Complete Matplotlib
+* Build a **Data Analysis Project** (Student Performance / Sports Dataset)
+* Start **EDA (Exploratory Data Analysis)**
+* Move towards **Machine Learning basics**
+
+---
+
+## 💡 Goal
+
+To build a **strong foundation in Data Science** and become capable of solving real-world problems using data, visualization, and machine learning.
+
+---
+
+## 🔥 Mindset
+
+Consistency, practice, and continuous improvement are my core principles.
+I focus on **deep understanding over rushing topics**.
+
+---
