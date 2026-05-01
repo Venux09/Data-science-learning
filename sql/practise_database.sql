@@ -1,1 +1,1 @@
-DESCRIBE new_data;
+DESCRIBE students;
