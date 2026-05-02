@@ -1,1 +1,1 @@
-DESCRIBE students;
+DESCRIBE students; 
