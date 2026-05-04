@@ -1,0 +1,9 @@
+-- here we are going to practise the data bases and tabels modifyding and also editing and also inserting values in it 
+-- CREATE DATABASE practiseDb;
+-- USE practiseDb;
+-- CREATE TABLE MOVIES_COLLECTION_2025(
+-- id INT PRIMARY KEY,
+-- Movie VARCHAR(100) UNIQUE,
+-- Rating INT,
+-- Collection INT);
+-- SHOW TABLES; 
