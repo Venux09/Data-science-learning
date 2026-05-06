@@ -1,0 +1,9 @@
+-- USE practise_db;
+-- SHOW TABLES;
+-- SELECT * FROM students;
+-- updating a table which is called students 
+-- UPDATE  students   SET  age = age + 5 WHERE age = age ;
+-- SELECT * FROM students;
+-- UPDATE students SET age = 18;
+-- UPDATE students SET class = 12;
+-- SELECT * FROM students;
