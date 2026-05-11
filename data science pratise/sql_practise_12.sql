@@ -33,7 +33,38 @@
 -- (204, 'Sophia', 'HR', 58000, 'Seattle', '2019-05-22'),
 -- (205, 'David', 'IT', 99000, 'Austin', '2018-12-15'),
 -- (206, 'Olivia', 'Finance', 76000, 'San Francisco', '2023-03-08');
+-- SELECT * FROM  employees_usa;
+
+SELECT * FROM employees_india;
+SELECT * FROM employees_usa;
+-- problem -1 
+SELECT emp_name , department FROM employees_india
+UNION 
+SELECT emp_name , department FROM employees_usa;
+-- problem -2 
+SELECT emp_name FROM employees_india 
+UNION ALL 
+SELECT emp_name FROM employees_usa ;
+-- PROBLEM 3 
+SELECT emp_name,salary  FROM employees_india WHERE  salary>70000
+UNION 
+SELECT emp_name,salary   FROM employees_usa WHERE  salary>70000;
 
 
+-- problem 4 
+SELECT count(emp_id) FROM employees_india ;
+SELECT count(emp_id) FROM employees_usa ;
 
-SELECT * FROM THE 
+-- problem 5 
+SELECT AVG(salary) FROM employees_india;
+SELECT AVG(salary) FROM employees_usa;
+
+-- problem 6 
+SELECT MIN(salary) , MAX(salary) FROM employees_india;
+SELECT MIN(salary) , MAX(salary) FROM employees_USa;
+
+-- PROBLEM -- 7
+SELECT emp_name, LENGth(emp_name) FROM employees_india; 
+SELECT emp_name , LENGTH(emp_name) FROM employees_usa; 
+
+
