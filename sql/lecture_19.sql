@@ -2,4 +2,4 @@
 -- SELECT * FROM employees_india ;
 -- SELECT * FROM employees_india where salary = salary ;
 -- CREATE INDEX idx on employees_india(department);
-SHOW INDEX FROM employees_india;
+-- SHOW INDEX FROM employees_india;
