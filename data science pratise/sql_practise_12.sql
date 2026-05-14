@@ -75,7 +75,24 @@
 -- -- PROBLEM - 9
 -- SELECT CONCAT('AMAN WORKS IN ','','IT');
 
+# problems of the view topic 
 
+
+-- problem 1
+-- use practise_set;
+-- CREATE VIEW employees_IT AS 
+-- SELECT emp_name,salary,department FROM employees_india WHERE department = 'IT';
+
+-- SELECT * FROM employees_IT ;
+
+
+-- CREATE VIEW global_employees AS 
+-- SELECT * FROM employees_india 
+-- UNION 
+-- SELECT * FROM employees_usa ;
+
+
+SELECT * FROM global_employees;
 
 
 
