@@ -92,8 +92,9 @@
 -- SELECT * FROM employees_usa ;
 
 
+-- SELECT * FROM global_employees;
+-- SELECT employees_india info ;
+UPDATE employees_india SET salary = 0 WHERE salary = salary ;
 SELECT * FROM global_employees;
-
-
 
 
