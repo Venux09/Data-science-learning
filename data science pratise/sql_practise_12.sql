@@ -94,7 +94,20 @@
 
 -- SELECT * FROM global_employees;
 -- SELECT employees_india info ;
-UPDATE employees_india SET salary = 0 WHERE salary = salary ;
-SELECT * FROM global_employees;
+-- UPDATE employees_india SET salary = 0 WHERE salary = salary ;
+-- SELECT * FROM global_employees;
+
+
+
+-- sql  indexes problems solving 
+
+
+--  problem number one 
+-- use practise_set;
+-- CREATE INDEX NAME ON employees_india(emp_name);
+-- SHOW INDEX FROM employees_india;
+-- PROBLEM - 2 
+
+
 
 
