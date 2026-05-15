@@ -118,7 +118,8 @@
 -- SELECT emp_name ,department, salary FROM employees_india WHERE SALARY=    (
 -- SELECT AVG(salary) FROM  employees_india ) ;
 
-SELECT 
+SELECT emp_name,department FROM employees_india WHERE department = (
+SELECT DEPARTMENT FROM employees_india WHERE emp_name = 'Aman');
 
 
 
