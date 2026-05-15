@@ -112,5 +112,13 @@
 -- DROP INDEX NAME ON EMPLOYEES_INDIA;
 
 
+-- starting to solve problem related to the topic called subquries 
+
+
+-- SELECT emp_name ,department, salary FROM employees_india WHERE SALARY=    (
+-- SELECT AVG(salary) FROM  employees_india ) ;
+
+SELECT 
+
 
 
