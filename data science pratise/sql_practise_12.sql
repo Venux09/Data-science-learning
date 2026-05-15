@@ -107,6 +107,9 @@
 -- CREATE INDEX NAME ON employees_india(emp_name);
 -- SHOW INDEX FROM employees_india;
 -- PROBLEM - 2 
+-- CREATE INDEX department_salary ON employees_india(department,salary)
+-- SELECT * FROM employees_india WHERE salary > 70000 and department = 'IT'
+-- DROP INDEX NAME ON EMPLOYEES_INDIA;
 
 
 
