@@ -257,6 +257,6 @@ IF YOU WANT TO IMPROVE .. SO AFTER SQL    I WILL DO SOME PROBABILY THEN I AM GOI
 WE KNOW  WHAT IS REALLY GOINNG ON THE PRICES AND WHAT IS REVIEWS AND ALSO IS THAT PRODUCT IS GOOD OR NOT ALSO ADDING THE REVIWS IN THE INSIGHTS IT WILL BE BIG PROJECT I AM JUST GIVING IDEA HERE IS REALLY BIG TO BE HONEST ..
 --- 
 THIS WAS IT FOR WEEKLY UPADATE OF WHAT I AM DOING RIGHT NOW 
-
+-- this week i did understood data science topic called sql and also i also solve 100 problem around it . so next thing i will xontinue with maxhine learning basic and make analysis project with it is a carreir analysis project great to be said this was it for this week update 
 
 ⭐ *Consistency beats everything.*
