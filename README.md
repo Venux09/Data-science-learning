@@ -259,4 +259,8 @@ WE KNOW  WHAT IS REALLY GOINNG ON THE PRICES AND WHAT IS REVIEWS AND ALSO IS THA
 THIS WAS IT FOR WEEKLY UPADATE OF WHAT I AM DOING RIGHT NOW 
 -- this week i did understood data science topic called sql and also i also solve 100 problem around it . so next thing i will xontinue with maxhine learning basic and make analysis project with it is a carreir analysis project great to be said this was it for this week update 
 
+
+## UPDATE 
+right now i have completed the sql and understood the basics of the probability and i will make project of basically a carrier analysis project and in this project i have done many things in the process like i have completed the colleting the data for the for the home page analysis it is data about the after the 10 th class what students should do 
+
 ⭐ *Consistency beats everything.*
