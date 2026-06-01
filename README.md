@@ -263,4 +263,58 @@ THIS WAS IT FOR WEEKLY UPADATE OF WHAT I AM DOING RIGHT NOW
 ## UPDATE 
 right now i have completed the sql and understood the basics of the probability and i will make project of basically a carrier analysis project and in this project i have done many things in the process like i have completed the colleting the data for the for the home page analysis it is data about the after the 10 th class what students should do 
 
+# Machine Learning Learning Update — 31 May 2026
+
+## Day 1 of Machine Learning
+
+Today I officially started my Machine Learning journey.
+
+### Topics Covered
+
+* Introduction to Machine Learning
+* Brief history and evolution of Machine Learning
+* Understanding how machines learn from data
+* Difference between features (X) and labels (y)
+* Basic understanding of classification models
+* Explored datasets such as Fish and Iris datasets
+
+### Practical Understanding
+
+* Learned how to separate features and labels
+* Trained a classification model using Random Forest Classifier
+* Made predictions using the trained model
+* Evaluated model performance using accuracy metrics
+
+### Current Project
+
+Started working on a Gurgaon House Price Prediction Model alongside the course project.
+
+#### Goals
+
+* Understand regression models
+* Learn data preprocessing techniques
+* Practice feature selection
+* Build house price prediction systems
+* Apply course concepts to a self-created project
+
+### Learning Approach
+
+I will follow a dual-learning strategy:
+
+1. Learn concepts through structured courses.
+2. Apply the same concepts independently through personal projects.
+
+This approach will help me strengthen both theoretical understanding and practical implementation skills.
+
+### Next Steps
+
+* Complete the Gurgaon House Price Prediction project.
+* Learn train-test splitting in depth.
+* Explore regression algorithms.
+* Understand model evaluation metrics.
+* Continue building small Machine Learning projects for practice.
+
+Machine Learning Journey: Started 🚀
+
+
 ⭐ *Consistency beats everything.*
