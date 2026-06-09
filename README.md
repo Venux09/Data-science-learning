@@ -314,7 +314,13 @@ This approach will help me strengthen both theoretical understanding and practic
 * Understand model evaluation metrics.
 * Continue building small Machine Learning projects for practice.
 
-Machine Learning Journey: Started 🚀
+Machine Learning Journey: Started 🚀\
 
+
+### Update - 7 june 
+* So in this week what i  understood in machine learning how to clean and process the data , i mean that  how change object values to numerical so it can and also how to create test and train data how it is very important
+* second thing i understood what is the design of the sklearn or skicit whatever you want to say
+* other thing i understood in this week how to deal with missing values in the data if our data is small how to deal with it and if our data is large how to deal with it
+-- so this was my this week progress it was good i would say i am going according to my plan  
 
 ⭐ *Consistency beats everything.*
