@@ -11,7 +11,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import root_mean_squared_error
-
+from sklearn.model_selection import cross_val_score
 #loading the data set 
 housing = pd.read_csv('housing.csv')
 
@@ -27,7 +27,7 @@ for train_index, test_index  in split.split(housing,housing['income_cat']):
 
 # work on a copy of training data 
 housing = strat_train_set.copy()
-
+print(housing.shape)
 
 # 3 . Separate features and lables 
 housing_labels = housing['median_house_value'].copy()
@@ -72,7 +72,8 @@ housing_prepared = full_pipeline.fit_transform(housing)
 lin_reag = LinearRegression()
 lin_reag.fit(housing_prepared,housing_labels)
 line_pred = lin_reag.predict(housing_prepared)
-line_rmse = root_mean_squared_error(housing_labels,line_pred)
+# line_rmse = root_mean_squared_error(housing_labels,line_pred)
+line_rmse = -cross_val_score(lin_reag,housing_prepared,housing_labels,scoring="neg_root_mean_squared_error",cv=10)
 print(f" The mean squared error of the line reg in {line_rmse}")
 
 
@@ -80,7 +81,7 @@ print(f" The mean squared error of the line reg in {line_rmse}")
 dec_reag = DecisionTreeClassifier()
 dec_reag.fit(housing_prepared,housing_labels)
 dec_pred = dec_reag.predict(housing_prepared)
-dec_rmse = root_mean_squared_error(housing_labels,dec_pred)
+dec_rmse = -cross_val_score(dec_reag,housing_prepared,housing_labels,scoring="neg_root_mean_squared_error",cv=10)
 print(f" The mean squared error of the dec_reg in {dec_rmse}")
 
 
@@ -90,5 +91,6 @@ print(f" The mean squared error of the dec_reg in {dec_rmse}")
 randome_forest_reag = RandomForestClassifier()
 randome_forest_reag.fit(housing_prepared,housing_labels)
 randome_forest_pred = randome_forest_reag.predict(housing_prepared)
-randome_forest_rmse = root_mean_squared_error(housing_labels,randome_forest_pred)
+# randome_forest_rmse = root_mean_squared_error(housing_labels,randome_forest_pred)
+randome_forest_rmse = -cross_val_score(randome_forest_reag,housing_prepared,housing_labels,scoring="neg_root_mean_squared_error",cv=10)
 print(f" The mean squared error of the random_forest_reg in {randome_forest_rmse}")
