@@ -7,7 +7,10 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
 from sklearn.compose import ColumnTransformer
-
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import root_mean_squared_error
 
 
 #loading the data set 
@@ -15,7 +18,7 @@ housing = pd.read_csv('housing.csv')
 
 
 #2.creating a Stratified test set based on Income category 
-housing['income_cat'] = pd.cut(housing['median_income'],bins = [0,1.5,3,4,5,np.inf],labels = [1,2,3,4,5])
+housing['income_cat'] = pd.cut(housing['median_income'],bins = [0,1.5,3,4.5,6,np.inf],labels = [1,2,3,4,5])
 
 split = StratifiedShuffleSplit(n_splits=1,test_size=0.2, random_state=42)
 for test_index , train_index in split.split(housing,housing['income_cat']):
@@ -28,7 +31,7 @@ housing = strat_train_set.copy()
 
 
 # 3 . Separate features and lables 
-housing_labels = housing['median_house_value']
+housing_labels = housing['median_house_value'].copy()
 housing_features = housing.drop('median_house_value',axis = 1 )
 
 #4. separate the numerical value and categorical value 
@@ -62,3 +65,32 @@ full_pipeline = ColumnTransformer([
 housing_prepared = full_pipeline.fit_transform(housing)
 
 print(housing_prepared.shape)
+
+
+
+#7. train the model 
+
+#linear regression 
+lin_reag = LinearRegression()
+lin_reag.fit(housing_prepared,housing_labels)
+line_pred = lin_reag.predict(housing_prepared)
+line_rmse = root_mean_squared_error(housing_labels,line_pred)
+print(f" The mean squared error of the line reg in {line_rmse}")
+
+
+#8.Decision Tree
+dec_reag = LinearRegression()
+dec_reag.fit(housing_prepared,housing_labels)
+dec_pred = dec_reag.predict(housing_prepared)
+dec_rmse = root_mean_squared_error(housing_labels,dec_pred)
+print(f" The mean squared error of the dec_reg in {dec_rmse}")
+
+
+#9. NOW - Random forest 
+
+
+randome_forest_reag = LinearRegression()
+randome_forest_reag.fit(housing_prepared,housing_labels)
+randome_forest_pred = randome_forest_reag.predict(housing_prepared)
+randome_forest_rmse = root_mean_squared_error(housing_labels,randome_forest_pred)
+print(f" The mean squared error of the random_forest_reg in {randome_forest_rmse}")
