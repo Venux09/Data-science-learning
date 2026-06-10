@@ -33,8 +33,8 @@ housing_features = housing.drop('median_house_value',axis = 1 )
 
 #4. separate the numerical value and categorical value 
 
-housing_num = housing.drop('ocean_proximity',axis = 1)
-housing_text = housing['ocean_proximity']
+housing_num = housing.drop('ocean_proximity',axis = 1).columns.tolist()
+housing_text = ['ocean_proximity']
 
 #5. Pipelines 
 
@@ -52,4 +52,13 @@ cat_pipeline = Pipeline([
 ])
 
 # full pipeline 
-full_pipeline = ColumnTransformer
+full_pipeline = ColumnTransformer([
+    ("num",num_pipeline,housing_num),
+    ("cat",cat_pipeline,housing_text)
+])
+
+#6. Transform the data 
+
+housing_prepared = full_pipeline.fit_transform(housing)
+
+print(housing_prepared.shape)
