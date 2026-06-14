@@ -323,4 +323,27 @@ Machine Learning Journey: Started 🚀\
 * other thing i understood in this week how to deal with missing values in the data if our data is small how to deal with it and if our data is large how to deal with it
 -- so this was my this week progress it was good i would say i am going according to my plan  
 
+# Learning Update
+
+## California House Price Prediction Project
+
+This week I completed my California House Price Prediction project and gained a deeper understanding of the machine learning workflow.
+
+### Key Concepts Learned
+
+* Creating training and testing datasets using train-test split.
+* Analyzing and preparing datasets before training.
+* Handling missing values and understanding their impact on model performance.
+* Training and evaluating machine learning models.
+* Building data preprocessing pipelines to ensure consistent data transformation.
+* Using conditional logic to switch between training and prediction workflows.
+* Understanding the design and workflow of Scikit-learn.
+* Using Joblib to save and load trained models for reuse without retraining.
+
+### Next Steps
+
+* Practice regression models on new datasets.
+* Improve feature engineering skills.
+* Build independent machine learning projects using the concepts learned.
+
 ⭐ *Consistency beats everything.*
