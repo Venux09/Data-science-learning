@@ -5,7 +5,9 @@ app = Flask(__name__,static_folder='static files',static_url_path='/files')
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World I am monu verma and i am understanding the flask !</p>"
+    name  = 'JILL'
+    language = "Python"
+    return render_template ("index.html", name = name, lang = language)
 
 @app.route("/about")
 def about():
@@ -22,3 +24,5 @@ def index():
 
 
 app.run(debug=True)
+
+
