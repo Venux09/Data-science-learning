@@ -1,7 +1,7 @@
 from flask import Flask,render_template
 from flask import Flask
 
-app = Flask(__name__)
+app = Flask(__name__,static_folder='static files',static_url_path='/files')
 
 @app.route("/")
 def hello_world():
@@ -10,12 +10,14 @@ def hello_world():
 @app.route("/about")
 def about():
 
-    return render_template('index.html')
+    return render_template('about.html')
 
 @app.route("/contact")
 def contact():
-    return "<p>This is the page which is realted to the contacts  !</p>"
-
+    return render_template('contact.html')
+@app.route("/index")
+def index():
+    return render_template('index.html')
 
 
 
