@@ -7,10 +7,14 @@ app = Flask(__name__,static_folder='static files',static_url_path='/files')
 def hello_world():
     name  = 'JILL'
     language = "Python"
-    return render_template ("index.html", name = name, lang = language)
+    intro = 'My name is monu verma i am going to be the best ai programmer'
+    luck_no = [2,3,4,5,12,4,33,43,12]
+    footer ="<p>Copyright 2025 | All Rights Reserved <p>"
+    return render_template ("index.html", name = name, lang = language,intro = intro,lucky_no = luck_no,footer = footer)
 
 @app.route("/about")
 def about():
+
 
     return render_template('about.html')
 

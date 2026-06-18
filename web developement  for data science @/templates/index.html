@@ -6,8 +6,16 @@
     <title>JINJA TWO </title>
 </head>
 <body>
+
     
-Hey i am {{name}} and i am using JINJA  2 my primarly language is {{lang}}
+        Hey i am {{name}} and i am using JINJA  2 my primarly language is {{lang}}
+        My intro is here = {{intro}}
+        {% for item in lucky_no%}
+            <p>{{item}}</p>
+            
+        {% endfor %}
+        <footer>{{footer | Safe}}</footer>
+
     
 </body>
 </html>
