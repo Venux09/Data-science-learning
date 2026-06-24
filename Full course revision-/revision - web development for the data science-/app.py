@@ -1,10 +1,27 @@
 from flask import Flask,render_template,request
-
+#basic minimal flask app 
 app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return render_template('HTML_REVISION.html')
+    return 'Hello_world'
+    # return render_template('HTML_REVISION.html')
 
+#topic = Query parameter
+
+@app.route("/predict")
+def predict():#quering  parameter
+    x = request.args.get('x')#requesting the value fron the url 
+    y = request.args.get('y')#requesting the value of the y from the url 
+
+    return f"x = {x}, y = {y}"
+
+@app.route("/prediction")#app route prediction 
+def prediction ():
+    feature = request.args.get('value')#requesting value from the url 
+    if not feature:#handling the error 
+        return"Value not provided"
+    return f"The predicition from the input is {feature}"#returning this on the app interface 
+    
 
 app.run(debug=True)
