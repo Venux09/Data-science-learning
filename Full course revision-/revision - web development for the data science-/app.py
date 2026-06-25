@@ -23,5 +23,7 @@ def prediction ():
         return"Value not provided"
     return f"The predicition from the input is {feature}"#returning this on the app interface 
     
+#serving the static file on the main website - css files , java files and other images and media 
+
 
 app.run(debug=True)
