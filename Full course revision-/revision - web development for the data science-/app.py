@@ -1,11 +1,25 @@
-from flask import Flask,render_template,request
+from flask import Flask,render_template,request, flash, redirect
+
+
+
+
+
+
+
 #basic minimal flask app 
 app = Flask("__name__ ")
+app.secret_key = '12345'
+
 
 @app.route("/")
 def hello_world():
-    return 'Hello_world'
-    # return render_template('HTML_REVISION.html')
+    feature = 5
+    
+    
+    #process predition here
+    flash('Prediction completed')
+    return redirect('/')
+    
 
 #topic = Query parameter
 
@@ -44,5 +58,21 @@ def variable():
     return render_template('html.html',prediction = value)
 
 # @app.route("/")
+
+
+# @app.route('/about page')
+# def about_page ():
+#     feature = 5
+#     if not feature:
+#         flash("Enter a value")
+#         return redirect('/')
+    
+#     #process predition here
+#     flash('Prediction completed')
+#     return redirect('/')#returning the flash message to the home page where hellow world is written 
+    
+
+
+
 
 app.run(debug=True)
