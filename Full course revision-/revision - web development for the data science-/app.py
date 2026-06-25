@@ -16,7 +16,7 @@ def predict():#quering  parameter
 
     return f"x = {x}, y = {y}"
 
-@app.route("/prediction")#app route prediction 
+@app.route("/prediction.predict")#app route prediction 
 def prediction ():
     feature = request.args.get('value')#requesting value from the url 
     if not feature:#handling the error 
@@ -25,6 +25,17 @@ def prediction ():
     
 #serving the static file on the main website - css files , java files and other images and media 
 #changing the location of the static files
+
+
+#form - user input  for the prediction 
+@app.route("/prediction")
+def prediction1():
+    return render_template ("HTML_REVISION.html")
+@app.route("/prediction", method = ["POST"])
+def prediction():
+    value = request.form('feature')
+    return f"Recived value :{value}"
+
 
 
 app.run(debug=True)
