@@ -1,6 +1,6 @@
 from flask import Flask,render_template,request
 #basic minimal flask app 
-app = Flask(__name__ , static_folder='static',static_url_path="Data science learning\Full course revision-\revision - web development for the data science-\static")
+app = Flask("__name__ ")
 
 @app.route("/")
 def hello_world():
@@ -28,14 +28,23 @@ def prediction ():
 
 
 #form - user input  for the prediction 
-@app.route("/prediction")
-def prediction1():
-    return render_template ("HTML_REVISION.html")
-@app.route("/prediction", method = ["POST"])
-def prediction():
-    value = request.form('feature')
-    return f"Recived value :{value}"
+# @app.route("/prediction")
+# def prediction1():
+#     return render_template ("HTML_REVISION.html")
+# @app.route("/prediction", method = ["POST"])
+# def prediction():
+#     value = request.form('feature')
+#     return f"Recived value :{value}"
+
+@app.route("/jinja")
+def variable():
+    value = request.args.get(value)
+    if value == 5 :
+        return ("You guessed 5 you are correct the right answer")
+    elif value != 5:
+        return ("Try ! again ")
 
 
+# @app.route("/")
 
 app.run(debug=True)
