@@ -39,11 +39,9 @@ def prediction ():
 @app.route("/jinja")
 def variable():
     value = request.args.get(value)
-    if value == 5 :
-        return ("You guessed 5 you are correct the right answer")
-    elif value != 5:
-        return ("Try ! again ")
 
+
+    return render_template('html.html',prediction = value)
 
 # @app.route("/")
 
