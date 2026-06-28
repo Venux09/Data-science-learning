@@ -346,4 +346,48 @@ This week I completed my California House Price Prediction project and gained a 
 * Improve feature engineering skills.
 * Build independent machine learning projects using the concepts learned.
 
+
+# 📅 Weekly Update — 28 June 2026
+
+## 🚀 Current Progress
+
+Over the past few months, I have completed the fundamentals of the Data Science roadmap covered in my learning course. This includes Python, Data Visualization, HTML, Web Scraping, Pandas, SQL, and the introductory concepts of Machine Learning.
+
+At this stage, my focus is shifting from simply completing a course to building a much deeper understanding through books, real-world projects, and consistent practice.
+
+## 📖 What's Next
+
+I am currently revising everything I have learned so far to strengthen my fundamentals. Once this revision is complete, I will begin studying books such as **Data Science from Scratch** and other advanced resources to gain a stronger conceptual understanding beyond tutorials.
+
+I also plan to increase the pace of my revision so I can move on to more challenging topics and larger projects.
+
+## 💻 Projects Completed
+
+During this learning phase, I built several projects that helped me apply the concepts in practice:
+
+* Career Analysis Website
+* RAG-based AI Teaching Assistant
+* California House Price Prediction
+* Book Scraper
+* Various SQL and Machine Learning practice projects
+
+## 🔨 Currently Working On
+
+* Revising the complete Data Science roadmap.
+* Strengthening Machine Learning fundamentals.
+* Improving my project-building workflow.
+
+## 🎯 Upcoming Projects
+
+After completing my revision, I plan to build several larger projects, including:
+
+* A Personal RAG (Retrieval-Augmented Generation) System built completely from scratch.
+* More real-world Machine Learning and Data Analysis projects.
+* Advanced end-to-end Data Science applications.
+
+The goal is to transition from following tutorials to independently designing, building, and deploying complete data-driven applications.
+
+---
+
+
 ⭐ *Consistency beats everything.*
